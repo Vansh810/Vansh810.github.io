@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Projects</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+        .projects-section {
+            padding: 50px 0;
+        }
+        .project-card {
+            margin-bottom: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .project-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+        }
+        .project-card h5 {
+            font-size: 1.5rem;
+        }
+        .footer {
+            background-color: #343a40;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Vansh Agarwal</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#" role="button">My Projects</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Projects Section -->
+    <section class="projects-section container">
+        <h2 class="text-center mb-5">My Projects</h2>
+                <div class="row">
+            <!-- Plant Disease Detection -->
+            <div class="col-md-4">
+                <div class="card project-card">
+                    <div class="card-body">
+                        <h5 class="card-title">Plant Disease Detection</h5>
+                        <p class="card-text">
+                            A computer vision project that identifies diseases in plants by analyzing leaf images with convolutional neural networks.
+                        </p>
+                        <a href="plant_disease_classification.html" class="btn btn-primary">View Project</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Age Detection -->
+            <div class="col-md-4">
+                <div class="card project-card">
+                    <div class="card-body">
+                        <h5 class="card-title">Age Detection</h5>
+                        <p class="card-text">
+                            A deep learning model that uses convolutional neural networks (CNNs) to estimate a person's age based on facial images.
+                        </p>
+                        <a href="age_detection.html" class="btn btn-primary">View Project</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bone Fracture Detection -->
+            <div class="col-md-4">
+                <div class="card project-card">
+                    <div class="card-body">
+                        <h5 class="card-title">Bone Fracture Detection</h5>
+                        <p class="card-text">
+                            A medical imaging project utilizing transfer learning to identify bone fractures in X-ray images with high precision.
+                        </p>
+                        <a href="project3.html" class="btn btn-primary">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!-- Document Q&A System -->
+            <div class="col-md-4">
+                <div class="card project-card">
+                    <div class="card-body">
+                        <h5 class="card-title">Document Q&A System</h5>
+                        <p class="card-text">
+                            A question-answering system leveraging LangChain to provide accurate answers from unstructured documents using natural language processing.
+                        </p>
+                        <a href="project1.html" class="btn btn-primary">View Project</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Emotion Detection -->
+            <div class="col-md-4">
+                <div class="card project-card">
+                    <div class="card-body">
+                        <h5 class="card-title">Emotion Detection</h5>
+                        <p class="card-text">
+                            A convolutional neural network (CNN)-based model that detects and classifies human emotions (e.g., happy, sad, angry) from facial images.
+                        </p>
+                        <a href="project2.html" class="btn btn-primary">View Project</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- House Price Prediction -->
+            <div class="col-md-4">
+                <div class="card project-card">
+                    <div class="card-body">
+                        <h5 class="card-title">House Price Prediction</h5>
+                        <p class="card-text">
+                            A predictive model that estimates house prices by analyzing various factors such as location, size, and amenities using regression and ensemble methods.
+                        </p>
+                        <a href="project3.html" class="btn btn-primary">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!-- Stock Price Prediction -->
+            <div class="col-md-4">
+                <div class="card project-card">
+                    <div class="card-body">
+                        <h5 class="card-title">Stock Price Prediction</h5>
+                        <p class="card-text">
+                            A hybrid forecasting model combining Prophet, ARIMA, and LSTM to predict stock price trends with improved accuracy.
+                        </p>
+                        <a href="project1.html" class="btn btn-primary">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>
+            <a href="https://github.com/yourusername" class="text-white me-2" target="_blank">GitHub</a> |
+            <a href="https://linkedin.com/in/yourusername" class="text-white" target="_blank">LinkedIn</a>
+        </p>
+    </footer>
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
