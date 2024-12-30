@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant Disease Detection</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .back-button {
+            text-decoration: none;
+            color: white;
+            background-color: #555;
+            padding: 8px 12px;
+            border-radius: 5px;
+        }
+        .back-button:hover {
+            background-color: #777;
+        }
+        section {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+        }
+        h1 {
+            color: #fff;
+        }
+        h2 {
+            color: #333;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            background: #f4f4f4;
+            margin: 5px 0;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Age Detection</h1>
+        <a href="projects.html" class="back-button">Back to Projects</a>
+    </header>
+    <section>
+        <h2>Project Overview</h2>
+        <p>This project focuses on predicting the age of a person based on their facial image using deep learning techniques. A convolutional neural network (CNN) was implemented for this regression problem, estimating the age as a continuous value.</p>
+
+        <h2>Details</h2>
+        <ul>
+            <li><strong>Problem Statement:</strong> Develop a deep learning model to predict the age of individuals from facial images.</li>
+            <li><strong>Problem Type:</strong> Regression</li>
+            <li><strong>Libraries Used:</strong> NumPy, OpenCV, TensorFlow, Keras, Matplotlib, scikit-learn</li>
+            <li><strong>Skills Gained:</strong> Deep learning for regression, image preprocessing, data augmentation, performance evaluation, and model optimization</li>
+        </ul>
+
+        <h2>Key Features</h2>
+        <ul>
+            <li>Designed and implemented a CNN model for age regression using TensorFlow/Keras.</li>
+            <li>Preprocessed the dataset by extracting age labels from file names and resizing images to a uniform format.</li>
+            <li>Normalized pixel values and augmented the data to enhance model generalization.</li>
+            <li>Trained the model with mean absolute error (MAE) as the evaluation metric for accurate predictions.</li>
+            <li>Visualized model performance through training and validation MAE plots.</li>
+            <li>Tested the model on unseen images for real-world performance evaluation.</li>
+        </ul>
+    </section>
+</body>
+
+</html>
