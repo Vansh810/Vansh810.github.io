@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant Disease Detection</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .back-button {
+            text-decoration: none;
+            color: white;
+            background-color: #555;
+            padding: 8px 12px;
+            border-radius: 5px;
+        }
+        .back-button:hover {
+            background-color: #777;
+        }
+        section {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+        }
+        h1 {
+            color: #fff;
+        }
+        h2 {
+            color: #333;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            background: #f4f4f4;
+            margin: 5px 0;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bone Fracture Detection</h1>
+        <a href="projects.html" class="back-button">Back to Projects</a>
+    </header>
+    <section>
+        <h2>Project Overview</h2>
+        <p>This project employs transfer learning to detect bone fractures in medical images. The pre-trained Xception model was fine-tuned to classify images as fractured or non-fractured, providing accurate predictions for medical diagnostics.</p>
+
+        <h2>Details</h2>
+        <ul>
+            <li><strong>Problem Statement:</strong> Detect bone fractures in medical images using a transfer learning-based approach.</li>
+            <li><strong>Problem Type:</strong> Binary Classification</li>
+            <li><strong>Libraries Used:</strong> TensorFlow, Keras, NumPy, Matplotlib</li>
+            <li><strong>Skills Gained:</strong> Transfer learning, model fine-tuning, medical image processing, performance metrics evaluation, and data augmentation</li>
+        </ul>
+
+        <h2>Key Features</h2>
+        <ul>
+            <li>Utilized the Xception model pre-trained on ImageNet as the base for transfer learning.</li>
+            <li>Fine-tuned specific layers of the base model for domain-specific knowledge adaptation.</li>
+            <li>Applied data augmentation techniques to improve model generalization and performance.</li>
+            <li>Implemented early stopping to prevent overfitting during training.</li>
+            <li>Evaluated the model using metrics such as accuracy, precision, recall, and AUC-ROC.</li>
+            <li>Visualized training progress and validation metrics over epochs for model optimization.</li>
+        </ul>
+    </section>
+</body>
+</html>

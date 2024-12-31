@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant Disease Detection</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .back-button {
+            text-decoration: none;
+            color: white;
+            background-color: #555;
+            padding: 8px 12px;
+            border-radius: 5px;
+        }
+        .back-button:hover {
+            background-color: #777;
+        }
+        section {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+        }
+        h1 {
+            color: #fff;
+        }
+        h2 {
+            color: #333;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            background: #f4f4f4;
+            margin: 5px 0;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Emotion Detection System</h1>
+        <a href="projects.html" class="back-button">Back to Projects</a>
+    </header>
+    <section>
+        <h2>Project Overview</h2>
+        <p>The Emotion Detection System utilizes convolutional neural networks (CNNs) to classify facial expressions into various emotional categories, such as happy, sad, angry, and more.</p>
+
+        <h2>Details</h2>
+        <ul>
+            <li><strong>Problem Statement:</strong> Automatically detect and classify human emotions based on facial expressions.</li>
+            <li><strong>Key Components:</strong> Preprocessing images, data augmentation, CNN-based classification, and performance evaluation.</li>
+            <li><strong>Libraries Used:</strong> NumPy, OpenCV, Keras, matplotlib, scikit-learn</li>
+            <li><strong>Skills Gained:</strong> Deep learning with CNNs, emotion classification, and confusion matrix analysis.</li>
+        </ul>
+
+        <h2>Key Features</h2>
+        <ul>
+            <li>Preprocesses grayscale images from the FER-2013 dataset, normalizing pixel values and resizing images.</li>
+            <li>Uses data augmentation techniques to improve model generalization.</li>
+            <li>Trains a convolutional neural network with dropout for regularization and uses softmax for multi-class classification.</li>
+            <li>Evaluates model performance using accuracy metrics and visualizes the training process with accuracy plots.</li>
+            <li>Generates and visualizes a confusion matrix to understand model performance across emotion categories.</li>
+        </ul>
+    </section>
+</body>
+</html>

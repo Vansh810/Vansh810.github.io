@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant Disease Detection</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .back-button {
+            text-decoration: none;
+            color: white;
+            background-color: #555;
+            padding: 8px 12px;
+            border-radius: 5px;
+        }
+        .back-button:hover {
+            background-color: #777;
+        }
+        section {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+        }
+        h1 {
+            color: #fff;
+        }
+        h2 {
+            color: #333;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            background: #f4f4f4;
+            margin: 5px 0;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Stock Price Prediction System</h1>
+        <a href="projects.html" class="back-button">Back to Projects</a>
+    </header>
+    <section>
+        <h2>Project Overview</h2>
+        <p>The Stock Price Prediction System utilizes historical stock market data to forecast future prices using Prophet, a time-series forecasting model. The system detects growth trends and includes seasonality components for accurate predictions.</p>
+
+        <h2>Details</h2>
+        <ul>
+            <li><strong>Problem Statement:</strong> Forecast stock prices for better decision-making in investments and trading.</li>
+            <li><strong>Key Components:</strong> Data retrieval, growth detection, time-series forecasting, and visualization.</li>
+            <li><strong>Libraries Used:</strong> yfinance, Prophet, seaborn, matplotlib, pandas, NumPy.</li>
+            <li><strong>Skills Gained:</strong> Time-series analysis, seasonality modeling, stock data handling, and trend detection.</li>
+        </ul>
+
+        <h2>Key Features</h2>
+        <ul>
+            <li>Retrieves historical stock data using Yahoo Finance API for flexible symbol and date range inputs.</li>
+            <li>Automatically detects growth trends in stock prices and adjusts model parameters accordingly.</li>
+            <li>Integrates seasonality components such as yearly, weekly, and daily patterns to enhance prediction accuracy.</li>
+            <li>Forecasts stock prices up to one year into the future and visualizes trends alongside historical data.</li>
+            <li>Identifies key peaks (maximum and minimum predicted prices) and annotates them on the forecast plot for better insights.</li>
+        </ul>
+    </section>
+</body>
+</html>

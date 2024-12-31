@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant Disease Detection</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .back-button {
+            text-decoration: none;
+            color: white;
+            background-color: #555;
+            padding: 8px 12px;
+            border-radius: 5px;
+        }
+        .back-button:hover {
+            background-color: #777;
+        }
+        section {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+        }
+        h1 {
+            color: #fff;
+        }
+        h2 {
+            color: #333;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            background: #f4f4f4;
+            margin: 5px 0;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Document Q&A System</h1>
+        <a href="projects.html" class="back-button">Back to Projects</a>
+    </header>
+    <section>
+        <h2>Project Overview</h2>
+        <p>This project allows users to query documents using advanced language models. By loading and processing documents, the system provides precise and contextual answers to user queries.</p>
+
+        <h2>Details</h2>
+        <ul>
+            <li><strong>Problem Statement:</strong> Enable users to ask questions about a document and receive contextually accurate answers.</li>
+            <li><strong>Key Components:</strong> Document processing, text chunking, vector embeddings, and language model-based retrieval.</li>
+            <li><strong>Libraries Used:</strong> LangChain, HuggingFace, tkinter, dotenv</li>
+            <li><strong>Skills Gained:</strong> Natural Language Processing (NLP), embedding creation, vector search, and interaction with modern LLMs.</li>
+        </ul>
+
+        <h2>Key Features</h2>
+        <ul>
+            <li>Supports text and PDF documents through manual file selection.</li>
+            <li>Processes large documents by splitting them into manageable chunks for efficient query retrieval.</li>
+            <li>Uses HuggingFace embeddings for semantic search and Google Flan-T5 as the language model for Q&A.</li>
+            <li>Interactive query interface for users to ask and refine their questions.</li>
+            <li>Securely loads HuggingFace API credentials from environment variables.</li>
+        </ul>
+    </section>
+</body>
+</html>
