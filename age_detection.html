@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Age Detection</title>
+    <title>Emotion Detection</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -31,6 +31,24 @@
         }
         .back-button:hover {
             background-color: #777;
+        }
+        .button-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .button {
+            text-decoration: none;
+            color: white;
+            background-color: #2d5dd6;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 20px;
+            text-align: center;
+        }
+        .button:hover {
+            background-color: #356eff;
         }
         section {
             max-width: 900px;
@@ -85,6 +103,11 @@
             <li>Visualized model performance through training and validation MAE plots.</li>
             <li>Tested the model on unseen images for real-world performance evaluation.</li>
         </ul>
+
+        <div class="button-container">
+            <a href="https://age-detection-cnn.streamlit.app/" target="_blank" class="button">Live Project Demo</a>
+            <a href="https://github.com/vansh810/age-detection-using-cnn" target="_blank" class="button">View on GitHub</a>
+        </div>
     </section>
 </body>
 
